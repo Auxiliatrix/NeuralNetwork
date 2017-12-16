@@ -60,7 +60,7 @@ public class TrainedNetwork {
 		events.add("onwin");
 		events.add("orlak");
 		*/
-		events.add("2017hop");
+		// events.add("2017hop");
 		NeuralMatrix nm = dm.process(events);
 		testingInputs = nm.getInputs();
 		testingOutputs = nm.getOutputs();
